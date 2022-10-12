@@ -42,7 +42,9 @@ const Blog = () => {
           </Card.Text>
         </Card.Body>
 
-        <Card.Title as="h2">How does context API works</Card.Title>
+        <Card.Title className="question" as="h2">
+          How does context API works
+        </Card.Title>
         <Card.Body>
           <Card.Text>
             <p>
@@ -63,7 +65,9 @@ const Blog = () => {
           </Card.Text>
         </Card.Body>
 
-        <Card.Title as="h2">What is useRaf and how does it work?</Card.Title>
+        <Card.Title className="question" as="h2">
+          What is useRaf and how does it work?
+        </Card.Title>
         <Card.Body>
           <Card.Text>
             <p>
