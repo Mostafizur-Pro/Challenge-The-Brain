@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Blog.css";
 import Card from "react-bootstrap/Card";
 import blog from "../../images/blog.png";
 
@@ -22,7 +22,9 @@ const Blog = () => {
       </div>
 
       <Card>
-        <Card.Title as="h2">whats is the purpose of react router</Card.Title>
+        <Card.Title className="question" as="h2">
+          whats is the purpose of react router
+        </Card.Title>
         <Card.Body>
           <Card.Text>
             <p>
