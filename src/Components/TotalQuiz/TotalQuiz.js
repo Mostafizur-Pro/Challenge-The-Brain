@@ -42,11 +42,7 @@ const TotalQuiz = ({ quiz }) => {
       <Card.Body>
         <div>
           <FontAwesomeIcon onClick={() => eye(options)} icon={faEye} />
-          {/* {options.map((option) => (
-            <div>
-              <FontAwesomeIcon onClick={() => eye(options)} icon={faEye} />
-            </div>
-          ))} */}
+
           <Row xs={1} md={2} className="g-4">
             {options.map((option) => (
               <div>
