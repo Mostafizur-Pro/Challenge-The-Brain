@@ -1,12 +1,10 @@
-import { faCocktail } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useLoaderData } from "react-router-dom";
 import TotalQuiz from "../TotalQuiz/TotalQuiz";
 
 const QuizList = () => {
   const quizLists = useLoaderData();
-  // console.log(quizLists);
+
   return (
     <div>
       <div>
