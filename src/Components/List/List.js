@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
 const List = ({ quiz }) => {
-  const { name, logo, total } = quiz;
+  const { name, logo } = quiz;
   return (
     <div>
       <Card style={{ width: "18rem" }}>

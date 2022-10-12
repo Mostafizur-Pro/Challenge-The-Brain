@@ -1,5 +1,5 @@
 import React from "react";
-import List from "../List/List";
+
 import "./Quiz.css";
 
 import Button from "react-bootstrap/Button";
@@ -22,9 +22,6 @@ const Quiz = ({ quiz, handlerAddToQuiz }) => {
               <Button variant="primary"> View Quiz</Button>
             </Link>
           </Card.Title>
-          {/* <Button onClick={() => handlerAddToQuiz(id)} variant="primary">
-            Start Practics
-          </Button> */}
         </Card.Body>
       </Card>
     </div>
