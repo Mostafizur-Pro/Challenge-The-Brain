@@ -1,0 +1,27 @@
+.site-name {
+  font-size: 30px;
+}
+.site-name span {
+  color: skyblue;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.activeClassName {
+  border-bottom: 4px solid red;
+}
+
+.carousel {
+  margin-bottom: 50px;
+}
+
+.img {
+  width: 200px;
+
+  margin-bottom: 50px;
+}

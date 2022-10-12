@@ -1,0 +1,30 @@
+.list-container {
+  justify-content: space-evenly;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  text-align: left;
+  margin: 50px;
+}
+.header-img {
+  background-color: gray;
+}
+@media screen and (max-width: 600px) {
+  .header-container {
+    display: block;
+  }
+  .header-container img {
+    width: 100%;
+  }
+  .list-container {
+    display: block;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .header-container img {
+    width: 100%;
+  }
+}

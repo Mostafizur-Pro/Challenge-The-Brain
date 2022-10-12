@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.fontIcon {
+  font-size: 30px;
+}
+.fontIcon {
+  margin: 30px;
+}
+.position {
+  bottom: 0px;
+}
