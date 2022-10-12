@@ -1,19 +1,14 @@
 import React from "react";
 import "./Home.css";
 
-import image01 from "../../images/image01.jpg";
-import image02 from "../../images/image02.jpg";
-import image03 from "../../images/image03.jpg";
 import home from "../../images/home.webp";
 
 import { Link, useLoaderData } from "react-router-dom";
 import Quiz from "../Quiz/Quiz";
 
-import Card from "react-bootstrap/Card";
-
 const Home = () => {
   const quizes = useLoaderData();
-  // console.log(quizes);
+
   const handlerAddToQuiz = (id) => {
     const remaining = quizes.filter((quizReact) => quizReact.id === id);
     if (remaining[0].id) {
